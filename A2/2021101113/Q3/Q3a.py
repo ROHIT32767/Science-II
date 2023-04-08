@@ -11,7 +11,7 @@ rounds = 10000
 for N in range(100):
     for i in range(rounds):
             count = a
-            for j in range(N):
+            for j in range(N+1):
                 x = randint(0,1)
                 # 1 for +1 and 0 for -1
                 count += (2*x-1)

@@ -12,7 +12,7 @@ for N in range(100):
     for i in range(rounds):
             count1 = a
             count2 = b
-            for j in range(N):
+            for j in range(N+1):
                 x = randint(0,1)
                 y = randint(0,1)
                 # 1 for +1 and 0 for -1
